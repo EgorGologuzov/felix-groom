@@ -1,0 +1,84 @@
+.priceform__animal {
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  aspect-ratio: 550 / 400;
+  grid-column: span 6;
+  cursor: pointer;
+  h1 {
+    z-index: 101;
+  }
+}
+
+.priceform__animal::after {
+  border-radius: 15px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.priceform__animal_selected {
+  border: 5px solid #fff;
+}
+
+.priceform__breed {
+  grid-column: 4 / 10;
+  padding: 5px;
+  background-color: #4A4A4A;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.priceform__table {
+  grid-column: 2 / 12;
+  margin: 40px 0 0 0;
+  border-radius: 15px;
+  border-collapse: collapse;
+  font-size: 24px;
+  th, td {
+    border: 5px solid #fff;
+    padding: 10px;
+  }
+  td:first-child {
+    text-align: left;
+  }
+  td:not(:first-child) {
+    text-align: center;
+  }
+}
+
+.priceform__table_tiny {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .priceform__breed {
+    grid-column: 1 / 13;
+  }
+  .priceform__table {
+    grid-column: 1 / 13;
+    margin: 0;
+    width: 100%;
+    font-size: 16px;
+    tbody {
+      width: 100%;
+      display: table;
+    }
+  }
+  .priceform__table_tiny {
+    display: block;
+  }
+  .priceform__table_full {
+    display: none;
+  }
+}

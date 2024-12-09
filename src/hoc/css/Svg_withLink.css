@@ -1,0 +1,12 @@
+.icon-link:hover path {
+  stroke: rgba(255, 255, 255, 0.7) !important;
+}
+
+.icon-link:active path {
+  stroke: rgba(74, 74, 74, 1.0) !important;
+}
+
+.icon-link:disabled path,
+.icon-link[disabled] path {
+  stroke: rgba(74, 74, 74, 1.0) !important;
+}

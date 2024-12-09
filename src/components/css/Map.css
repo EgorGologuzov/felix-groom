@@ -1,0 +1,9 @@
+.map {
+  grid-column: 2 / 12;
+}
+
+@media screen and (max-width: 767px) {
+  .map {
+    grid-column: 1 / 13;
+  }
+}

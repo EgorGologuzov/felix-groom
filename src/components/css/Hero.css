@@ -1,0 +1,18 @@
+.hero {
+  width: 100%;
+  aspect-ratio: 1440 / 800;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__title {
+  grid-column: 1 / 13;
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    aspect-ratio: 320 / 325;
+  }
+}

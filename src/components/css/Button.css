@@ -1,0 +1,36 @@
+.btn {
+  padding: 20px 45px;
+  width: min-content;
+  border-radius: 15px;
+  text-wrap: nowrap;
+}
+
+.btn_primary {
+  background-color: rgba(26, 26, 26, 1);
+}
+
+.btn_primary:hover {
+  background-color: rgba(26, 26, 26, 0.75);
+}
+
+.btn_primary:active {
+  background-color: rgba(26, 26, 26, 0.5);
+}
+
+.btn_secondary {
+  background-color: rgba(74, 74, 74, 1);
+}
+
+.btn_secondary:hover {
+  background-color: rgba(74, 74, 74, 0.75);
+}
+
+.btn_secondary:active {
+  background-color: rgba(74, 74, 74, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .btn {
+    padding: 10px 10px;
+  }
+}
