@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/felix-groom/static/css/main.47fee79b.css",
+    "main.js": "/felix-groom/static/js/main.51aa40ec.js",
+    "index.html": "/felix-groom/index.html",
+    "static/media/left-arrow.svg": "/felix-groom/static/media/left-arrow.298dfd2108cbbcf835aff21db43b4312.svg",
+    "static/media/right-arrow.svg": "/felix-groom/static/media/right-arrow.92e9fc44cbbe7d921fbb05fc05eca2b5.svg",
+    "static/media/menu.svg": "/felix-groom/static/media/menu.eae9e259a8b44815152a13cf374ed0d4.svg",
+    "main.47fee79b.css.map": "/felix-groom/static/css/main.47fee79b.css.map",
+    "main.51aa40ec.js.map": "/felix-groom/static/js/main.51aa40ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47fee79b.css",
+    "static/js/main.51aa40ec.js"
+  ]
+}
