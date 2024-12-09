@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Container from './Container'
 import './css/PriceForm.css'
 import Spliter from './Spliter';
+import { imgPath } from '../utils/utils';
 
 export default function PriceForm() {
   const [animal, setAnimal] = useState("cat");
@@ -13,13 +14,13 @@ export default function PriceForm() {
       <Container>
         <div
           className={animal === "cat" ? "priceform__animal priceform__animal_selected" : "priceform__animal"}
-          style={{backgroundImage: `url("/img/cat.png")`}}
+          style={{backgroundImage: `url("${imgPath("cat.png")}")`}}
           onClick={() => setAnimal("cat")}>
           <h1>КОШКИ</h1>
         </div>
         <div
           className={animal === "dog" ? "priceform__animal priceform__animal_selected" : "priceform__animal"}
-          style={{backgroundImage: `url("/img/dog.png")`}}
+          style={{backgroundImage: `url("${imgPath("dog.png")}")`}}
           onClick={() => setAnimal("dog")}>
           <h1>СОБАКИ</h1>
         </div>

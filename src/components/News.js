@@ -4,6 +4,7 @@ import './css/News.css'
 import Wheel from './Wheel';
 import Spliter from './Spliter';
 import Button from './Button';
+import { imgPath } from '../utils/utils';
 
 export default function News() {
   return (
@@ -20,7 +21,7 @@ export default function News() {
                   УВАЖАЕМЫЕ КЛИЕНТЫ! В НАШЕМ САЛОНЕ С 10.02.2024 Г. ПРОИЗОШЛИ ЦЕНОВЫЕ ИЗМЕНЕНИЯ.
                 </p>
                 <div className="news__img">
-                  <img src="/img/news-home.png" alt="News Home" />
+                  <img src={imgPath("news-home.png")} alt="News Home" />
                 </div>
                 <div className="news__btn">
                   <Button>Подробнее</Button>

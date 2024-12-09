@@ -4,9 +4,10 @@ import './css/Gallery.css'
 import Wheel from './Wheel';
 import Spliter from './Spliter';
 import Button from './Button';
+import { imgPath } from '../utils/utils';
 
-const fotos = ["/img/gallery-home-1.png", "/img/gallery-home-2.png", "/img/gallery-home-3.png", "/img/gallery-home-1.png", "/img/gallery-home-2.png", "/img/gallery-home-3.png"];
-// const fotos = ["/img/gallery-home-1.png"];
+const fotos = [imgPath("gallery-home-1.png"), imgPath("gallery-home-2.png"), imgPath("gallery-home-3.png"), imgPath("gallery-home-1.png"), imgPath("gallery-home-2.png"), imgPath("gallery-home-3.png")];
+// const fotos = [imgPath("gallery-home-1.png")];
 
 export default function Gallery() {
   return (

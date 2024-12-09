@@ -1,3 +1,5 @@
-export function isPointInRect(x, y, rect) {
-  return x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom;
+export function imgPath(filename) {
+  let result = "/felix-groom/img/" + filename;
+  result = result.replace("//", "/");
+  return result;
 }

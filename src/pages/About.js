@@ -4,11 +4,12 @@ import Spliter from '../components/Spliter'
 import Container from '../components/Container'
 import './css/About.css'
 import Map from '../components/Map'
+import { imgPath } from '../utils/utils'
 
 export default function About() {
   return (
     <div>
-      <Hero title="О НАС" src="/img/hero-about.png" />
+      <Hero title="О НАС" src={imgPath("hero-about.png")} />
       <Spliter />
       <Container>
         <div className="about__desc">
